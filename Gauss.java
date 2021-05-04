@@ -30,11 +30,9 @@ public class Gauss {
 
                 for(int j=1; j<width-1; j++) {
 
-
                     int red = 0, green = 0, blue = 0;
 
                     for (int k = -1; k <= 1; k++) {
-
                         for (int l = -1; l <= 1; l++) {
 
                             //odczyt składowych koloru RGB
