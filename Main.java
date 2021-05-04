@@ -25,6 +25,7 @@ class Main {
             {
                 return ImageIO.read(new File(sciezka));
             }
+            
             catch (Exception e)
             {
                 System.out.println(e);
@@ -36,11 +37,12 @@ class Main {
 
             BufferedImage obrazek = null;
 
-            try {
+            try 
+            {
                 obrazek = loadImage(sc);
             }
+            
             catch (IOException e) {
-
                 e.printStackTrace();
             }
 
