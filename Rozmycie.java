@@ -55,7 +55,7 @@
 			       pomoc_b += blue * M[k+1][l+1];
 
 			   }
-			   }
+			 }
 			   //punkty rozmycia
 		       red = (int) pomoc_r;
 		       green = (int) pomoc_g;
@@ -80,7 +80,7 @@
 
 
 			 } //koniec dwóch pętli po kolumnach i wierszach obrazu
-			 }
+		 }
 
 			 //zapis do pliku zmodyfikowanego obrazu
 
@@ -88,7 +88,7 @@
 			 ImageIO.write(image, "jpg", ouptut);
 
 			 } catch (Exception e) {}
-			 }
+		}
 
 	 static public void main(String args[]) throws Exception
 	 {
